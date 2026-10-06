@@ -104,7 +104,7 @@ export function ProjectExplorer({ projects, lang, t }: Props) {
       </div>
 
       <p className="mt-6 text-sm text-muted" aria-live="polite">
-        {filtered.length} {t.count}
+        
       </p>
 
       {filtered.length === 0 ? (

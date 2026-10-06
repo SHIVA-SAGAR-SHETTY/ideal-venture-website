@@ -14,7 +14,7 @@ export const company = {
   founded: 2022,
 
   owner: {
-    name: { en: "Pradeepa Kumar Shetty", ar: "براديبا كومار شيتي" } satisfies Localized,
+    name: { en: "Harsha Pradeep Shetty", ar: "براديبا كومار شيتي" } satisfies Localized,
     title: { en: "Founder & Managing Director", ar: "المؤسس والمدير العام" } satisfies Localized,
   },
 
@@ -37,7 +37,7 @@ export const company = {
     phoneDisplay: "+971 50 554 6898",
     phoneHref: "tel:+971505546898",
     whatsapp: "971505546898",
-    email: "pradeepklshetty@gmail.com",
+    email: " pradeep@ivbc.ae",
     // TODO(owner): confirm the area name; the license lists "Industrial Area 1", Parcel 242-288.
     address: {
       en: "Office 220, Lootah Building, Al Qusais Industrial Area 1, Dubai, UAE",
@@ -50,7 +50,7 @@ export const company = {
   /** Figures computed from the 2021 & 2022 pre-qualification documents. */
   stats: {
     builtUpSqft: 1_157_254, // sum of documented built-up areas
-    projects: 50, // ~40 completed + ongoing listed across both PQs
+    projects: 150, // ~40 completed + ongoing listed across both PQs
     authorities: 5, // DM, Trakhees, HFZA, Sharjah Municipality, MBRHE
   },
 
@@ -58,7 +58,7 @@ export const company = {
     { en: "Dubai Municipality", ar: "بلدية دبي" },
     { en: "Trakhees (Ports, Customs & Free Zone Corp.)", ar: "تراخيص (مؤسسة الموانئ والجمارك والمنطقة الحرة)" },
     { en: "Hamriyah Free Zone Authority", ar: "هيئة المنطقة الحرة بالحمرية" },
-    { en: "Sharjah Municipality", ar: "بلدية الشارقة" },
+    { en: "Sharjah Municipality", ar: "بلدية الشارقة" },    { en: "Dubai Development Authority (DDA)", ar: "هيئة التنمية في دبي (DDA)" },
     { en: "Mohammed Bin Rashid Housing Establishment", ar: "مؤسسة محمد بن راشد للإسكان" },
   ] satisfies Localized[],
 

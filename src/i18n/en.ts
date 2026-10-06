@@ -110,7 +110,7 @@ const en = {
       { year: "Portfolio", text: "Industrial, commercial, residential and leisure projects across JAFZA, DIC, DIP, Technopark, Dubai Maritime City and Global Village." },
       { year: "Royal Court", text: "12 poultry farm sheds delivered for H.H. The Ruler's Court at Al Nakhali." },
       { year: "2022", text: "Ideal Venture Building Contracting L.L.C licensed by Dubai Economy & Tourism." },
-      { year: "Today", text: "Registered with Mohammed Bin Rashid Housing Establishment for villa construction & maintenance." },
+      { year: "Today", text: "Registered and approved with all authority Mohammed Bin Rashid Housing Establishment for villa construction & maintenance." },
     ],
     equipmentTitle: "Equipment & fleet",
     equipmentLead: "Our own plant and vehicles keep sites moving without waiting on third parties (from our pre-qualification records).",

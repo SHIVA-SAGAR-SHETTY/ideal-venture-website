@@ -10,6 +10,7 @@ import { getDictionary } from "@/i18n";
 import { dirOf, hasLocale, locales } from "@/lib/i18n";
 import { organizationJsonLd, pageMetadata, siteUrl } from "@/lib/seo";
 
+
 const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope", display: "swap" });
 const barlow = Barlow_Condensed({
   subsets: ["latin"],
@@ -57,6 +58,8 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         <a href="#main" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:start-3 focus:z-[70] focus:bg-white focus:px-4 focus:py-2 focus:text-ink">
           Skip to content
         </a>
+       
+ 
         <Header lang={lang} nav={t.nav} />
         <main id="main">{children}</main>
         <Footer lang={lang} t={t} />
